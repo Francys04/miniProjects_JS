@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+
+section {
+    border: 2px solid white;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+section h1 {
+    margin: 10px 0
+}
+
+.scroll-idicator {
+    height: 5px;
+    width: calc(100% - 6rem);
+    position: fixed;
+    top: 10px;
+    left: 3em;
+    border-radius: 3px;
+
+}
+
+.scroll-idicator .progress {
+    height: 100%;
+    width: 20px;
+    border-radius: 3px;
+    background: linear-gradient(30deg, aquamarine, rgba(255, 255, 255, 0));
+    transition: width 0.1s;
+}
